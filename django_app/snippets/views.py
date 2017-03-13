@@ -7,7 +7,7 @@ from snippets.serializers import SnippetSerializer, UserSerializer
 
 
 class UserList(generics.ListAPIView):
-    queryset = User.objecst.all()
+    queryset = User.objects.all()
     serializer_class = UserSerializer
 
 
