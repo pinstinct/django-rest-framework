@@ -1,5 +1,5 @@
 from django.conf.urls import url, include
-from snippets import views
+from . import views
 from rest_framework.routers import DefaultRouter
 
 # Create a router and register our viewsets with it.
